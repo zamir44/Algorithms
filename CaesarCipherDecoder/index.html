@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Caesar Cipher Decoder</title>
+    </head>
+
+    <body>
+        <h1>Caesar Cipher Decoder</h1>
+        
+        <h3>Enter the coded message here:</h3>
+        <textarea id="codedMessage" name="coded" rows="8" cols="60"></textarea>
+        <br>
+        <button onclick="analyzeText()">Build hash table</button>
+
+        <h3>Hash Table</h3>
+        <p id="hashTable"></p>
+        <button onclick="tryToDecode()">Decode the message</button>
+        
+        <h3>Decoded Message</h3>
+        <p id="finalMessage"></p>
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
